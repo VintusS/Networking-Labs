@@ -25,4 +25,4 @@ echo "Running the Python script..."
 python main.py
 
 # here's how to start
-# ./setup_and_run.sh
+# sh ./setup_and_run.sh
