@@ -113,15 +113,5 @@ if "200 OK" in headers:
     with open('resources/data.json', 'w', encoding='utf-8') as f:
         f.write(json_data)
 
-    # print("\nJSON Representation:\n", json_data)
-
-    # xml_data = Serializer.to_xml(dream_garage)
-    # print("\nXML Representation:\n", xml_data)
-
-    # temp_car = Deserializer.from_json(json_data, FilteredCars)
-    # print(temp_car)
-    # temp_car = Deserializer.from_xml(xml_data, FilteredCars)
-    # print(temp_car)
-
 else:
     print("Failed to retrieve the webpage.")
